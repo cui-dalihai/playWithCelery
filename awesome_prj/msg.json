@@ -1,0 +1,18 @@
+{
+  "headers": {},
+  "content-type": "application/json",
+  "properties": {
+    "delivery_mode": 2,
+    "delivery_info": {
+      "exchange": "celery",
+      "routing_key": "celery",
+      "priority": 0
+    },
+    "reply_to": "350870e6-7b87-3272-bed5-c200f3351619",
+    "delivery_tag": "03e5c77d-e676-4984-8c11-436eed17ec67",
+    "body_encoding": "base64",
+    "correlation_id": "51964613-7c51-409e-a272-1a700bbe529c"
+  },
+  "body": "eyJhcmdzIjogW10sICJ0aW1lbGltaXQiOiBbbnVsbCwgbnVsbF0sICJjYWxsYmFja3MiOiBudWxsLCAiY2hvcmQiOiBudWxsLCAiZXhwaXJlcyI6IG51bGwsICJyZXRyaWVzIjogMCwgInRhc2tzZXQiOiBudWxsLCAiZXJyYmFja3MiOiBudWxsLCAiZXRhIjogbnVsbCwgImlkIjogIjUxOTY0NjEzLTdjNTEtNDA5ZS1hMjcyLTFhNzAwYmJlNTI5YyIsICJ1dGMiOiB0cnVlLCAidGFzayI6ICJlbmR1c2VyLnRhc2tzLnRpbWVfd2FzdGVkIiwgImt3YXJncyI6IHt9fQ==",
+  "content-encoding": "utf-8"
+}
