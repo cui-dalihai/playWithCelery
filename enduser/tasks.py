@@ -1,12 +1,19 @@
 from __future__ import absolute_import, unicode_literals
 import time
 from celery import shared_task
+from enduser.models import EndUser
 
 
 @shared_task
 def time_wasted():
-    print("sleep 10 seconds")
+    print("time_wasted: sleep 10 seconds")
     time.sleep(10)
+
+    EndUser(
+        name='cui',
+        age=18
+    ).save()
+
     return 100
 
 
